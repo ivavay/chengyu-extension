@@ -1,0 +1,17 @@
+{
+  "name": "chengyu",
+  "short_name": "chengyu",
+  "version": "0.0.1.2",
+  "description": "chengyu",
+  "icons": { "16": "icons/chengyu-1.png",
+             "48": "icons/chengyu-2.png"
+           },
+  "manifest_version": 2,
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }, 
+  "web_accessible_resources": [
+    "data.json"
+]
+  
+}
