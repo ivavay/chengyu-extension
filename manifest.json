@@ -1,7 +1,7 @@
 {
   "name": "chengyu",
   "short_name": "chengyu",
-  "version": "0.0.1.2",
+  "version": "0.0.1.3",
   "description": "chengyu",
   "icons": { "16": "icons/chengyu-1.png",
              "48": "icons/chengyu-2.png"
