@@ -23,17 +23,17 @@
     })
     .then((data) => {
     // work with JSON data here
-        var randomChengyu = randomize(data);
+    var random = randomize(data);
         
     // display the elements on the html
-        document.getElementById('chengyu').innerHTML = randomChengyu.chengyu;
-        document.getElementById('definition').innerHTML = randomChengyu.definition;
-        document.getElementById('pingyin').innerHTML = randomChengyu.pingyin;
+        document.getElementById('chengyu').innerHTML = random.chengyu;
+        document.getElementById('definition').innerHTML = random.definition;
+        document.getElementById('pingyin').innerHTML = random.pingyin;
     })
     .catch((err) => {
-        // do something for an error here
+    // do something for an error here
     })
-//pick a random backgorund color 
+    //pick a random backgorund color 
     window.onload = function() {
       var randomColor = randomize(color);
       document.getElementsByTagName("body")[0].style.background = randomColor;
