@@ -2,9 +2,10 @@
   "name": "chengyu",
   "short_name": "chengyu",
   "version": "0.0.1.3",
-  "description": "chengyu",
-  "icons": { "16": "icons/chengyu-1.png",
-             "48": "icons/chengyu-2.png"
+  "description": "New tab, new Chinese idiom",
+  "icons": { "16": "icons/chengyu-2.png",
+             "48": "icons/chengyu.png", 
+             "128": "icons/chengyu-3.png"
            },
   "manifest_version": 2,
   "chrome_url_overrides": {
