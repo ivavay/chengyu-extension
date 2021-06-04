@@ -1,5 +1,6 @@
 (function(){
   
+    // array of colors
     var color = [
       "#d1495b",
       "#edae49",
